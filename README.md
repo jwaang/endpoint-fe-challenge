@@ -7,7 +7,10 @@ A React-based todo list application with sorting, due dates, and completion stat
 1. Install dependencies:
 `npm install`
 
-2. Start the development server:
+2. Set up environment variables:
+Create a `.env` file and populate with api key from the email.
+
+3. Start the development server:
 `npm run dev`
 
 ## Technologies Used
@@ -16,11 +19,6 @@ A React-based todo list application with sorting, due dates, and completion stat
 - **Day.js**: Formats and manages dates
 - **CSS Modules**: Provides scoped styling
 - **classnames**: Manages conditional class applications
-
-## Environment Variables
-
-This project uses environment variables for configuration. For demonstration purposes, the `.env` file is included in this repository.
-**In a production environment, this file would be excluded from version control and added to `.gitignore`.**
 
 ## Development Notes
 
