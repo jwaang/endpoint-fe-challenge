@@ -1,0 +1,13 @@
+.header {
+    background-color: blue;
+    color: white;
+    text-align: center;
+}
+
+.todoList {
+    margin-top: 60px;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
